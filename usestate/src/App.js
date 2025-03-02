@@ -41,9 +41,6 @@ function App() {
       <input type='text' ref={refElement} value={name} onChange={(e) => setName(e.target.value)}></input>
       <button onClick={reset}>reset</button>
       <button onClick={handelInput}>handel input</button>
-      <h1>counter is {count} </h1>
-      <button onClick={counter}>click</button>
-
       <h1>the name is {data} </h1>
       <button onClick={updateData}>click to update</button>
 
